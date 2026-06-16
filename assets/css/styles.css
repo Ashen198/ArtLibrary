@@ -123,7 +123,58 @@ img{
 
 
 	
-/*========== Navbar ==========*/
+/*=================================================== Navbar ===========================================================*/
+
+
+body { font-family: sans-serif; margin: 0; padding: 0; }
+
+.navbar { border-bottom: 1px solid #ddd; padding: 15px 50px; }
+
+/* Top Section */
+.top-nav { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+
+/* Updated Logo design*/
+.navbar-logo {
+    height: 50px; /* Adjust this height to match your desired navbar size */
+    width: auto;
+    display: block;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container { 
+    flex: 1; 
+    max-width: 500px; 
+    background: #f4f4f4; 
+    padding: 10px 20px; 
+    border-radius: 30px; 
+    display: flex; 
+    align-items: center;
+}
+
+/* Updated search icon color */
+.search-icon { color: #FC6549; }
+
+.search-container input { 
+    border: none; background: transparent; outline: none; margin-left: 10px; width: 100%; font-size: 16px;
+}
+
+.user-actions { font-size: 20px; display: flex; gap: 20px; cursor: pointer; color: #333; }
+.user-actions i:hover { color: #FC6549; }
+
+/* Bottom Section */
+.bottom-nav ul { 
+    list-style: none; display: flex; justify-content: center; 
+    padding: 20px 0 0 0; margin: 0; gap: 30px; 
+}
+
+.bottom-nav a { text-decoration: none; color: #333; font-weight: 600; font-size: 14px; }
+
+/* Updated Hover Color */
+.bottom-nav a:hover { color: #FC6549; }
 
 
 
