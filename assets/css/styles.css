@@ -13,7 +13,7 @@
 --border-color: hsl(var(--hue), 4%, 62%);
 --white-color: hsl(var(--hue), 4%, 100%);
 --gray-color: hsl(var(--hue), 4%, 85%);
-
+--footer-bg-color: #0f1e2d; /* Deep dark blue matching the image */
 /*========== Font family ==========*/
 --body-font:"Azeret Mono", monospace;
 --second-font:"Instrument Sans", sans-serif;
@@ -35,7 +35,7 @@
 }
 /* Responsive typography */
 
-	
+
 
 /*=============== BASE ===============*/
 *{
@@ -212,10 +212,7 @@ img{
 /*=============== FOOTER ===============*/
 
 /*=============== FOOTER ===============*/
-/* Define the missing footer background color variable */
-:root {
-    --footer-bg-color: #0f1e2d; /* Deep dark blue matching the image */
-}
+
 
 .footer {
     background-color: var(--footer-bg-color);
