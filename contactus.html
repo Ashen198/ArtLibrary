@@ -3,46 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-
     
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="assets/css/nice-select2.css" />
 
-    <!--=============== REMIXICON ===============-->
-    <link
-  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-  rel="stylesheet"
-    />
-    <!--=============== SWIPER CSS ===============-->
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-    />
-    <!--=============== NICE SELECT CSS ===============-->
-	<link rel ="stylesheet" href="assets/css/nice-select2.css" />
-
-    <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
-	
-    <title>Art Gallary</title>
+    
+    <title>Contact Us - Art Library</title>
   </head>
   <body>
 
 
-
-
-
-
-
- 
-    <!--=============== HEADER ===============-->
-    <header class="header">
-	<!--=============== TopBar ===============-->
-
-	 <!--=============== Bottom bar ===============-->
-	
-    <!--=============== Navbar ===============-->
+       <!--=============== Navbar ===============-->
 <nav class="navbar">
     <div class="top-nav">
         <!-- Logo image -->
@@ -75,148 +49,93 @@
     </div>
 </nav>
 
-    </header>
-     
-    <!--=============== MAIN ===============-->
-	<main class ="main">
 
-    <!--=============== HOME ===============-->
 
-    <!-- Hero Banner -->
-    <section class="hero-banner">
-      <div class="hero-banner__bg">
-        <img src="rsc/hero-banner.png" alt="Artist studio with painting" class="hero-banner__img">
-        <div class="hero-banner__overlay"></div>
-      </div>
-      <div class="hero-banner__content">
-        <p class="hero-banner__eyebrow">Curated Fine Art</p>
-        <h1 class="hero-banner__title">START WITH AN ARTWORK<br>THAT INSPIRES YOU</h1>
-        <p class="hero-banner__subtitle">Find similar artworks available on ArtLibrary, for every budget.</p>
-        <div class="hero-banner__actions">
-        
-          <button class="hero-banner__btn hero-banner__btn--ghost">Explore Collection</button>
-        </div>
-      </div>
-    </section>
+    <main class="main">
+        <section class="contact-section">
+            <div class="contact-container">
+                
+                <div class="contact-info-panel">
+                    <div class="info-header">
+                        <span class="subtitle">GET IN TOUCH</span>
+                        <h1 class="contact-title">We’d love to hear from you</h1>
+                        <p class="contact-desc">
+                            Have questions about commissioning an artwork, tracking your delivery, or applying to sell your art? Drop us a message and our team will get back to you shortly.
+                        </p>
+                    </div>
 
-    <!-- Sweeper Banner Cards -->
-    <section class="banner-sweep">
-      <div class="banner-sweep__header">
-        <h2 class="banner-sweep__title">Discover by Mood</h2>
-        <div class="banner-sweep__nav">
-          <button class="banner-sweep__nav-btn banner-sweep-prev" aria-label="Previous">
-            <i class="fa-solid fa-chevron-left"></i>
-          </button>
-          <button class="banner-sweep__nav-btn banner-sweep-next" aria-label="Next">
-            <i class="fa-solid fa-chevron-right"></i>
-          </button>
-        </div>
-      </div>
+                    <div class="info-details">
+                        <div class="info-item">
+                            <div class="info-icon"><i class="ri-map-pin-line"></i></div>
+                            <div>
+                                <h4>Our Gallery Hub</h4>
+                                <p>120 Artfinder Way, Creative District, Colombo, Sri Lanka</p>
+                            </div>
+                        </div>
 
-      <div class="swiper banner-swiper">
-        <div class="swiper-wrapper">
+                        <div class="info-item">
+                            <div class="info-icon"><i class="ri-mail-send-line"></i></div>
+                            <div>
+                                <h4>Support Email</h4>
+                                <p>support@artlibrary.com</p>
+                            </div>
+                        </div>
 
-          <!-- Card 1: Quiet Solitude -->
-          <div class="swiper-slide banner-card">
-            <div class="banner-card__inner banner-card__inner--photo">
-              <img src="rsc/card-red-dress.jpg" alt="Quiet Solitude" class="banner-card__photo">
-              <div class="banner-card__content">
-                <span class="banner-card__tag">Figurative</span>
-                <h3 class="banner-card__name">Quiet Solitude</h3>
-                <p class="banner-card__desc">A moment suspended — red silk against the dark, and the weight of stillness</p>
-                <a href="#" class="banner-card__link">Browse <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="ri-phone-line"></i></div>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+94 11 234 5678 <span class="hours">(Mon - Fri, 9am - 5pm)</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel">
+                    <form action="#" class="contact-form">
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" placeholder="John" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" placeholder="Doe" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="johndoe@example.com" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inquiry-type">What are you looking for?</label>
+                            <select id="inquiry-type" class="nice-select wide">
+                                <option value="general" selected>General Inquiry</option>
+                                <option value="buyer">Buyer & Delivery Support</option>
+                                <option value="artist">Apply to Sell / Artist Support</option>
+                                <option value="commission">Commission an Artwork</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" rows="6" placeholder="Tell us how we can assist you..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">
+                            Send Message <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </form>
+                </div>
+
             </div>
-          </div>
-
-          <!-- Card 2: Village Light -->
-          <div class="swiper-slide banner-card">
-            <div class="banner-card__inner banner-card__inner--photo">
-              <img src="rsc/card-village.jpg" alt="Village Light" class="banner-card__photo">
-              <div class="banner-card__content">
-                <span class="banner-card__tag">Landscape</span>
-                <h3 class="banner-card__name">Village Light</h3>
-                <p class="banner-card__desc">Expressive strokes, wild greens, and the joy of ordinary countryside</p>
-                <a href="#" class="banner-card__link">Browse <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 3: Wild Bloom -->
-          <div class="swiper-slide banner-card">
-            <div class="banner-card__inner banner-card__inner--photo">
-              <img src="rsc/card-daisies.jpg" alt="Wild Bloom" class="banner-card__photo">
-              <div class="banner-card__content">
-                <span class="banner-card__tag">Botanical</span>
-                <h3 class="banner-card__name">Wild Bloom</h3>
-                <p class="banner-card__desc">Impasto daisies burst with texture — nature in its most untamed form</p>
-                <a href="#" class="banner-card__link">Browse <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 4: Earth Tapestry -->
-          <div class="swiper-slide banner-card">
-            <div class="banner-card__inner banner-card__inner--photo">
-              <img src="rsc/card-patchwork.jpg" alt="Earth Tapestry" class="banner-card__photo">
-              <div class="banner-card__content">
-                <span class="banner-card__tag">Abstract</span>
-                <h3 class="banner-card__name">Earth Tapestry</h3>
-                <p class="banner-card__desc">Fields stitched from above — terracotta, slate, and ochre woven into landscape</p>
-                <a href="#" class="banner-card__link">Browse <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 5: Inner World -->
-          <div class="swiper-slide banner-card">
-            <div class="banner-card__inner banner-card__inner--photo">
-              <img src="rsc/card-tulip-girl.jpg" alt="Inner World" class="banner-card__photo">
-              <div class="banner-card__content">
-                <span class="banner-card__tag">Figurative</span>
-                <h3 class="banner-card__name">Inner World</h3>
-                <p class="banner-card__desc">Loose, expressive — a figure lost in thought among blossoming tulips</p>
-                <a href="#" class="banner-card__link">Browse <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 6: Golden Provence -->
-          <div class="swiper-slide banner-card">
-            <div class="banner-card__inner banner-card__inner--photo">
-              <img src="rsc/card-lavender.jpg" alt="Golden Provence" class="banner-card__photo">
-              <div class="banner-card__content">
-                <span class="banner-card__tag">Impressionism</span>
-                <h3 class="banner-card__name">Golden Provence</h3>
-                <p class="banner-card__desc">Lavender fields under amber skies — the south of France, alive in paint</p>
-                <a href="#" class="banner-card__link">Browse <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <!-- Pagination -->
-        <div class="swiper-pagination banner-swiper-pagination"></div>
-      </div>
-    </section>
-
-    <!--=============== PRODUCTS ===============-->
-
-	
-    <!--=============== CATEGORIES ===============-->
+        </section>
+    </main>
 
 
-    <!--=============== FEATURES ===============-->
-	
-    <!--=============== PRODUCTS ===============-->
-	
-
-    <!--=============== CATEGORY ===============-->
-	
-    <!--=============== NEWSLETTER ===============-->
-	</main>
-
-    <!--=============== FOOTER ===============-->
+     <!--=============== FOOTER ===============-->
 
 	  <footer class="footer">
         <div class="footer-container">
@@ -232,7 +151,7 @@
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Our Artists</a></li>
                     <li><a href="#">Artists A-Z</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Common Searches</a></li>
                 </ul>
             </div>
@@ -369,20 +288,14 @@
         </div>
     </footer>
 
-    <!--=============== SCROLL UP ===============-->
-
-    <!--=============== SWIPER JS ===============-->
-	<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js">
-	</script>
-
-
-    <!--=============== NICE SELECT JS ===============-->
     <script src="assets/js/nice-select2.js"></script>
-    <!--=============== MAIN JS ===============-->
-	<script src="assets/js/main.js"></script>
-	
-	 <!--=============== Home JS ===============-->
-	<script src="assets/js/home.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Initializes Nice Select formatting on our custom dropdown
+            if (typeof NiceSelect !== 'undefined') {
+                NiceSelect.bind(document.getElementById("inquiry-type"));
+            }
+        });
+    </script>
   </body>
 </html>
-
