@@ -1375,7 +1375,59 @@ img{
     }
 }
 
-/*=============== SCROLL UP ===============*/
+/*=============== login ===============*/
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 { margin-bottom: 0.5rem; color: #333; }
+.subtitle { color: #666; margin-bottom: 1.5rem; font-size: 0.9rem; }
+
+.input-group { margin-bottom: 1.2rem; }
+.input-group label { display: block; margin-bottom: 0.4rem; font-weight: 600; font-size: 0.85rem; }
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #e67e22; /* Matches your brand */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-btn:hover { background-color: #d35400; }
+
+.footer-text { text-align: center; margin-top: 1.5rem; font-size: 0.9rem; }
+.footer-text a { color: #e67e22; font-weight: bold; text-decoration: none; }
+
 
 /*=============== BANNER ===============*/
 
