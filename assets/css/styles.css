@@ -54,6 +54,7 @@ button{
 
 body{
 	background-color: var(--body-color);
+
 }
 
 h1,h2,h3,h4 {
@@ -1379,14 +1380,7 @@ img{
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f7f6;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .auth-card {
     background: white;
@@ -1395,6 +1389,7 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
     width: 100%;
     max-width: 400px;
+    
 }
 
 h2 { margin-bottom: 0.5rem; color: #333; }
